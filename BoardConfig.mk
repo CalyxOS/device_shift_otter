@@ -150,6 +150,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 BOOT_SECURITY_PATCH := 2026-08-05
 VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
+# Calyx
+PLATFORM_SECURITY_PATCH := 2024-10-05
+
 # SEPolicy
 include device/calyx/sepolicy/libion/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
