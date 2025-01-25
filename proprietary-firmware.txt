@@ -1,6 +1,9 @@
 # All firmware images below are extracted from the release mentioned in proprietary-files.txt
 
-abl.elf:abl.img;AB
+# Exceptions:
+# abl.img: abl_otter_calyx_20260520_45bb79269a3a82edc74fa0203cc47f4240d26399.img
+
+abl.elf:abl.img;AB|10ca3b0897bc00c31230ceb0ce8ac6561f578dc4
 aop.mbn:aop.img;AB
 BTFM.bin:bluetooth.img;AB
 cpucp.elf:cpucp.img;AB
