@@ -1,6 +1,9 @@
 # All firmware images below are extracted from the release mentioned in proprietary-files.txt
 
-abl.elf:abl.img;AB
+# Exceptions:
+# abl.img: abl_calyx_20260417_0735.img
+
+abl.elf:abl.img;AB|b8ae69889cfe26c5c7a141f0eb5aafce8985efd1
 aop.mbn:aop.img;AB
 BTFM.bin:bluetooth.img;AB
 cpucp.elf:cpucp.img;AB
