@@ -1,9 +1,9 @@
 # Firmware from SHIFT/otter/otter:14/SOS.6.1.20250417/20250417:user/release-keys
 
 # Exceptions:
-# abl.img: abl_user_calyx_20250121.img
+# abl.img: abl_user_calyx_20250522.img
 
-abl.elf:abl.img;AB|eed25ad311a1c312d724c753a08141fac056e10b
+abl.elf:abl.img;AB|6d27f6304c39bc58aa1df62a817503d9b545682c
 aop.mbn:aop.img;AB
 BTFM.bin:bluetooth.img;AB
 cpucp.elf:cpucp.img;AB
