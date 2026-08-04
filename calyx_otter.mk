@@ -22,5 +22,5 @@ PRODUCT_MODEL := SHIFTphone 8
 PRODUCT_MANUFACTURER := SHIFT
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildFingerprint=SHIFT/otter/otter:14/SOS.6.6.20260507/20260507:user/release-keys \
+    BuildFingerprint=SHIFT/otter/otter:14/SOS.6.7.20260712/20260712:user/release-keys \
     DeviceProduct=otter
