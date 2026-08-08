@@ -154,7 +154,7 @@ VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 PLATFORM_SECURITY_PATCH := 2024-10-05
 
 # SEPolicy
-include device/lineage/sepolicy/libion/sepolicy.mk
+include device/calyx/sepolicy/libion/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
