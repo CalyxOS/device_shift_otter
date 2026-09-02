@@ -1,5 +1,5 @@
 #
-# SPDX-FileCopyrightText: 2021-2024 The LineageOS Project
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -89,9 +89,7 @@ BOARD_KERNEL_CMDLINE := \
 
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DTBO := true
-TARGET_KERNEL_CLANG_VERSION := r563880c
 TARGET_KERNEL_CONFIG := vendor/lahaina-qgki_defconfig vendor/otter.config
-TARGET_KERNEL_NO_GCC := true
 TARGET_KERNEL_SOURCE := kernel/shift/qcm6490
 
 # Kernel modules
